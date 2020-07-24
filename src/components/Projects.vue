@@ -6,7 +6,12 @@
       </div>
       <div class="col-4 p-0 hide blur">
         <div class="card hide">
-          <img class="card-img-top blurimg" src="https://placehold.it/140" width="100" alt />
+          <img
+            class="card-img-top blurimg"
+            src="https://placehold.it/140"
+            width="100"
+            alt
+          />
           <div class="show slide">
             <div class="p-relative-30 bright">
               <h4 class="bright">Name</h4>
@@ -23,7 +28,12 @@
       </div>
       <div class="col-4 p-0 hide blur">
         <div class="card hide">
-          <img class="card-img-top blurimg" src="https://placehold.it/140" width="100" alt />
+          <img
+            class="card-img-top blurimg"
+            src="https://placehold.it/140"
+            width="100"
+            alt
+          />
           <div class="show slide">
             <div class="p-relative-30 bright">
               <h4 class="bright">Name</h4>
@@ -40,7 +50,12 @@
       </div>
       <div class="col-4 p-0 hide blur">
         <div class="card hide">
-          <img class="card-img-top blurimg" src="https://placehold.it/140" width="100" alt />
+          <img
+            class="card-img-top blurimg"
+            src="https://placehold.it/140"
+            width="100"
+            alt
+          />
           <div class="show slide">
             <div class="p-relative-30 bright">
               <h4 class="bright">Name</h4>
@@ -55,6 +70,7 @@
           </div>
         </div>
       </div>
+      n
     </div>
   </div>
 </template>

@@ -6,11 +6,15 @@
       </div>
       <div class="col-12 col-md-6 d-flex justify-content-center">
         <div class="pic-container shadow-lg m-2">
-          <img class="profile-pic" src="@/assets/profilepic.jpg" alt="picture" />
+          <img
+            class="profile-pic"
+            src="@/assets/profilepic.jpg"
+            alt="picture"
+          />
         </div>
       </div>
       <div class="col-12 col-md-6 m-auto text-shadow">
-        <h4 class="p-2">Full Stack</h4>
+        <h4 class="p-2">Full Stack Experiance</h4>
         <div class="d-flex justify-content-around pt-2">
           <div class="text-left">
             <h4>Front end</h4>
@@ -38,20 +42,20 @@
 <script>
 export default {
   mounted() {
-    this.pageLoad();
+    // this.pageLoad();
   },
   methods: {
     data() {
       return {
-        message: {},
+        // message: {},
       };
     },
-    pageLoad() {
-      setTimeout(() => {}, 1000);
-      let str = "Justin Gates Software Developer";
+    // pageLoad() {
+    //   setTimeout(() => {}, 1000);
+    //   let str = "Justin Gates Software Developer";
 
-      message.str = str;
-    },
+    //   message.str = str;
+    // },
   },
 };
 </script>
