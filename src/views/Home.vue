@@ -2,7 +2,7 @@
   <div class="home">
     <Header />
     <projects />
-    <resume />
+    <!-- <resume class="col-12 col-lg-10 col-md-11 m-auto " /> -->
   </div>
 </template>
 

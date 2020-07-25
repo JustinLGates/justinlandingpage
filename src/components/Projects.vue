@@ -1,76 +1,77 @@
 <template>
-  <div class="container-fluid text-light">
-    <div class="row bg-info">
-      <div class="col-12">
-        <h2 class="text-shadow">Portfolio</h2>
+  <div class="container-fluid">
+    <div class="row bg-primary">
+      <div class="col-12 col-md-3">
+        <div class="row bg-dark">
+          <img src="https://placehold.it/50" alt />
+        </div>
       </div>
-      <div class="col-4 p-0 hide blur">
-        <div class="card hide">
-          <img
-            class="card-img-top blurimg"
-            src="https://placehold.it/140"
-            width="100"
-            alt
-          />
-          <div class="show slide">
-            <div class="p-relative-30 bright">
-              <h4 class="bright">Name</h4>
-              <div class="d-flex justify-content-around">
-                <h5>
-                  <i class="fas fa-link p-1"></i>
-                  <i class="fas fa-code p-1"></i>
-                </h5>
+      <div class="col-12 col-md-9">
+        <div class="row bg-light">
+          <div class="col-12 bg-primary">
+            <h2 class="text-shadow-2 text-light m-0 p-2">Projects</h2>
+          </div>
+          <div class="col-12 col-md-6 p-0 text-light text-shadow p-2 bg-primary">
+            <h4 class="p-2">HomeScholar</h4>
+            <p class="p-2">
+              As a home school teacher create lesson plans, grade students
+              assignments and generate printable transcripts with ease . Share
+              events or tips and tricks with other users.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 p-0 text-light p-2 px-4 bg-primary m-auto">
+            <div class="card hide">
+              <div class>
+                <img class="card-img-top" src="@/assets/homescholarlogo.png" width="100" alt />
               </div>
-              <p>Description here</p>
+              <div class="show slide swing-in-top-fwd p-2">
+                <div class="p-relative-30 bright">
+                  <div class="d-flex justify-content-around w-100">
+                    <h5 class="bg-dark text-shadow p-2">
+                      <a target="_blank" href="https://homescholar.herokuapp.com">
+                        <i title="View site" class="fas fa-link p-1 action text-light"></i>
+                      </a>
+                      <a target="_blank" href="https://github.com/StevenPackard/HomeScholar">
+                        <i title="View code" class="fas fa-code p-1 action text-light"></i>
+                      </a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="col-12 col-md-6 p-0 text-light p-2 px-4 bg-primary m-auto">
+            <div class="card hide">
+              <div class>
+                <img class="card-img-top" src="@/assets/track-a-bug.png" width="100" alt />
+              </div>
+              <div class="show slide swing-in-top-fwd p-2">
+                <div class="p-relative-30 bright">
+                  <div class="d-flex justify-content-around w-100">
+                    <h5 class="bg-dark text-shadow p-2">
+                      <a target="_blank" href="https://track-a-bug.herokuapp.com/">
+                        <i title="View Site" class="fas fa-link p-1 action text-light"></i>
+                      </a>
+                      <a target="_blank" href="https://github.com/JustinLGates/bugtracker">
+                        <i title="View code" class="fas fa-code p-1 action text-light"></i>
+                      </a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 p-0 text-light text-shadow p-2 bg-primary">
+            <h4 class="bright p-2">Bug tracker</h4>
+            <p
+              class="p-2"
+            >Report and track bugs in your application. Update the status or make notes for other developers as needed.</p>
           </div>
         </div>
       </div>
-      <div class="col-4 p-0 hide blur">
-        <div class="card hide">
-          <img
-            class="card-img-top blurimg"
-            src="https://placehold.it/140"
-            width="100"
-            alt
-          />
-          <div class="show slide">
-            <div class="p-relative-30 bright">
-              <h4 class="bright">Name</h4>
-              <div class="d-flex justify-content-around">
-                <h5>
-                  <i class="fas fa-link p-1"></i>
-                  <i class="fas fa-code p-1"></i>
-                </h5>
-              </div>
-              <p>Description here</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-4 p-0 hide blur">
-        <div class="card hide">
-          <img
-            class="card-img-top blurimg"
-            src="https://placehold.it/140"
-            width="100"
-            alt
-          />
-          <div class="show slide">
-            <div class="p-relative-30 bright">
-              <h4 class="bright">Name</h4>
-              <div class="d-flex justify-content-around">
-                <h5>
-                  <i class="fas fa-link p-1"></i>
-                  <i class="fas fa-code p-1"></i>
-                </h5>
-              </div>
-              <p>Description here</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      n
     </div>
   </div>
 </template>
@@ -87,20 +88,69 @@ export default {};
   background-color: rgb(51, 51, 51);
 }
 .blur:hover .blurimg {
-  filter: brightness(0.3);
+  display: none;
 }
 .p-relative-30 {
   position: relative;
-  width: 32vw;
 }
 .hide:hover .show {
   color: whitesmoke;
   filter: drop-shadow(rgba(0, 0, 0, 0.219) 2px 2px 2px);
   display: inline;
+}
+.action {
   cursor: pointer;
 }
 .slide {
   position: absolute;
-  top: 5px;
+}
+.swing-in-top-fwd {
+  -webkit-animation: swing-in-top-fwd 0.9s
+    cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: swing-in-top-fwd 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-7-25 16:26:48
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation swing-in-top-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
 }
 </style>
