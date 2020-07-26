@@ -1,22 +1,45 @@
 <template>
-  <div class="container-fluid">
-    <div class="row ">
-      <div class="col-12 bg-light p-0">
-        <h4 class=" m-0 p-2 px-3 text-dark shadow bg-light">
+  <div class="container-fluid z-index-2">
+    <div class="row bg-dark d-flex justify-content-around ">
+      <div class="col-12 bg-light p-0 bg-dark">
+        <h4 class=" m-0 p-2 px-3 text-dark shadow bg-light rounded-bottom">
           Projects
         </h4>
       </div>
+    </div>
 
-      <div class="col-12 bg-dark col-md-6 text-light text-shadow">
-        <h4 class="px-3">HomeScholar</h4>
-        <p class="">
+    <div class="row bg-light">
+      <div
+        class="col-6 col-lg-5 bg-dark col-sm-6 text-light text-shadow d-flex px-0 p-2 justify-content-start align-items-center flex-column "
+      >
+        <h4 class="p-2 pt-md-3">HomeScholar</h4>
+        <p class="p-2 ">
           As a home school teacher create lesson plans, grade students
           assignments and generate printable transcripts with ease . Share
           events or tips and tricks with other users.
         </p>
+        <div class="d-flex align-items-space-around justify-content-around">
+          <div class="px-3">
+            <h6 class="pl-3">Client:</h6>
+            <ul>
+              <li>VueJs</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="px-3">
+            <h6 class="pl-3">Server</h6>
+            <ul>
+              <li>NodeJs</li>
+              <li>MongoDb</li>
+              <li>Auth0</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div class="col-12 col-md-6  text-light bg-primary animOn">
+      <div
+        class="col-12 col-lg-5 bg-dark col-sm-6 p-4 d-flex justify-content-around align-items-center flex-column text-light bg-dark animOn"
+      >
         <div class="card">
           <div class>
             <img
@@ -51,58 +74,72 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12  col-md-6 p-0 text-light p-2 px-4 bg-primary m-auto">
-          <div class="card hide">
-            <div class>
-              <img
-                class="card-img-top"
-                src="@/assets/track-a-bug.png"
-                width="100"
-                alt
-              />
-            </div>
-            <div class="show slide swing-in-top-fwd p-2">
-              <div class="p-relative-30 bright">
-                <div class="d-flex justify-content-around w-100">
-                  <h5 class="bg-dark text-shadow p-2">
-                    <a
-                      target="_blank"
-                      href="https://track-a-bug.herokuapp.com/"
-                    >
-                      <i
-                        title="View Site"
-                        class="fas fa-link p-1 action text-light"
-                      ></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://github.com/JustinLGates/bugtracker"
-                    >
-                      <i
-                        title="View code"
-                        class="fas fa-code p-1 action text-light"
-                      ></i>
-                    </a>
-                  </h5>
-                </div>
+    </div>
+    <div class="row">
+      <div
+        class="col-12 p-0 p-sm-2 col-lg-5 bg-dark col-sm-6 text-light text-shadow d-flex justify-content-start align-items-center flex-column "
+      >
+        <h4 class="p-sm-2 pt-md-4">Bug tracker</h4>
+        <p class="p-sm-2 pt-md-4">
+          Report and track bugs in your application. Update the status or make
+          notes for other developers as needed.
+        </p>
+        <div class="d-flex align-items-space-around justify-content-around">
+          <div class="px-sm-3">
+            <h6 class="pl-sm-3">Client:</h6>
+            <ul>
+              <li>VueJs</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="px-3">
+            <h6 class="pl-3">Server</h6>
+            <ul>
+              <li>NodeJs</li>
+              <li>MongoDb</li>
+              <li>Auth0</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-4 col-lg-5 bg-dark col-sm-6 p-4 d-flex justify-content-around align-items-center flex-column text-light bg-dark animOn"
+      >
+        <div class="card">
+          <div class>
+            <img
+              class="card-img-top"
+              src="@/assets/track-a-bug.png"
+              width="100"
+              alt
+            />
+          </div>
+          <div class="slide swing-in-top-fwd p-2">
+            <div class="p-relative-30 bright">
+              <div class="d-flex justify-content-around w-100">
+                <h5 class="bg-dark text-shadow p-2 shadow rounded">
+                  <a target="_blank" href="https://track-a-bug.herokuapp.com/">
+                    <i
+                      title="View Site"
+                      class="fas fa-link p-1 action text-light"
+                    ></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/JustinLGates/bugtracker"
+                  >
+                    <i
+                      title="View code"
+                      class="fas fa-code p-1 action text-light"
+                    ></i>
+                  </a>
+                </h5>
               </div>
             </div>
           </div>
         </div>
-
-        <div
-          class="col-12 col-md-6 order-md-1 p-0 text-light text-shadow p-2 bg-primary"
-        >
-          <h4 class="bright p-2">Bug tracker</h4>
-          <p class="p-2">
-            Report and track bugs in your application. Update the status or make
-            notes for other developers as needed.
-          </p>
-        </div>
       </div>
     </div>
-
     <div class="row">
       <div class="col-12">
         <div class="row bg-light d-flex justify-content-around">
@@ -123,6 +160,9 @@ export default {};
 </script>
 
 <style>
+.text-shdaow-3 {
+  text-shadow: black 1px 1px 1px, rgba(0, 0, 0, 0.76) 2px 2px 2px;
+}
 .px-11 {
   padding: 34px !important;
 }

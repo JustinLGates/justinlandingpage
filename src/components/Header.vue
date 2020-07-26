@@ -4,7 +4,9 @@
       class="row bg-light index-1 text-center d-flex justify-content-center "
     >
       <div class="col-12 p-2 m-h-30 spacer-20">
-        <h1 class="text-shadow p-2">Justin Gates Software Developer</h1>
+        <h1 class="text-shadow-3 text-dark p-2">
+          Justin Gates Software Developer
+        </h1>
       </div>
       <div class="col-6 index-1 ">
         <div
@@ -24,7 +26,7 @@
         class="col-12 col-sm-6 p-1 py-2 px-sm-3 bg-light  p-lg-5 d-flex align-items-center"
       >
         <div class="text-left p-2 p-sm-3 shadow rounded text-shadow bg-dark">
-          <h4 class="d-inline p-2 text-shadow-2 px-3  text-primary">
+          <h4 class="d-inline p-2 text-shadow-3 px-3  text-light">
             Profile
           </h4>
           <p class="">
@@ -37,7 +39,7 @@
         </div>
       </div>
       <div class="col-12 col-sm-6 m-auto">
-        <div class="p-2 bg-light text-primary contact-bar">
+        <div class="p-2 bg-light text-primary contact-bar shadow">
           <h4 class="p-0 m-0">
             <a
               target="_blank"
