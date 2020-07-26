@@ -1,73 +1,108 @@
 <template>
   <div class="container-fluid">
-    <div class="row bg-primary">
-      <div class="col-12 col-md-9">
-        <div class="row bg-light">
-          <div class="col-12 bg-primary">
-            <h2 class="text-shadow-2 text-light m-0 p-2">Projects</h2>
-          </div>
-          <div class="col-12 col-md-6 p-0 text-light text-shadow p-2 bg-primary">
-            <h4 class="p-2">HomeScholar</h4>
-            <p class="p-2">
-              As a home school teacher create lesson plans, grade students
-              assignments and generate printable transcripts with ease . Share
-              events or tips and tricks with other users.
-            </p>
-          </div>
+    <div class="row ">
+      <div class="col-12 bg-light p-0">
+        <h4 class=" m-0 p-2 px-3 text-dark shadow bg-light">
+          Projects
+        </h4>
+      </div>
 
-          <div class="col-12 col-md-6 p-0 text-light p-2 px-4 bg-primary m-auto animOn">
-            <div class="card">
-              <div class>
-                <img class="card-img-top" src="@/assets/homescholarlogo.png" width="100" alt />
-              </div>
-              <div class="slide swing-in-top-fwd p-2">
-                <div class="p-relative-30 bright">
-                  <div class="d-flex justify-content-around w-100">
-                    <h5 class="bg-dark text-shadow p-2 shadow rounded">
-                      <a target="_blank" href="https://homescholar.herokuapp.com">
-                        <i title="View site" class="fas fa-link p-1 action text-light"></i>
-                      </a>
-                      <a target="_blank" href="https://github.com/StevenPackard/HomeScholar">
-                        <i title="View code" class="fas fa-code p-1 action text-light"></i>
-                      </a>
-                    </h5>
-                  </div>
-                </div>
+      <div class="col-12 bg-dark col-md-6 text-light text-shadow">
+        <h4 class="px-3">HomeScholar</h4>
+        <p class="">
+          As a home school teacher create lesson plans, grade students
+          assignments and generate printable transcripts with ease . Share
+          events or tips and tricks with other users.
+        </p>
+      </div>
+
+      <div class="col-12 col-md-6  text-light bg-primary animOn">
+        <div class="card">
+          <div class>
+            <img
+              class="card-img-top"
+              src="@/assets/homescholarlogo.png"
+              width="100"
+              alt
+            />
+          </div>
+          <div class="slide swing-in-top-fwd p-2">
+            <div class="p-relative-30 bright">
+              <div class="d-flex justify-content-around w-100">
+                <h5 class="bg-dark text-shadow p-2 shadow rounded">
+                  <a target="_blank" href="https://homescholar.herokuapp.com">
+                    <i
+                      title="View site"
+                      class="fas fa-link p-1 action text-light"
+                    ></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/StevenPackard/HomeScholar"
+                  >
+                    <i
+                      title="View code"
+                      class="fas fa-code p-1 action text-light"
+                    ></i>
+                  </a>
+                </h5>
               </div>
             </div>
-          </div>
-
-          <div class="col-12 col-md-6 p-0 text-light p-2 px-4 bg-primary m-auto">
-            <div class="card hide">
-              <div class>
-                <img class="card-img-top" src="@/assets/track-a-bug.png" width="100" alt />
-              </div>
-              <div class="show slide swing-in-top-fwd p-2">
-                <div class="p-relative-30 bright">
-                  <div class="d-flex justify-content-around w-100">
-                    <h5 class="bg-dark text-shadow p-2">
-                      <a target="_blank" href="https://track-a-bug.herokuapp.com/">
-                        <i title="View Site" class="fas fa-link p-1 action text-light"></i>
-                      </a>
-                      <a target="_blank" href="https://github.com/JustinLGates/bugtracker">
-                        <i title="View code" class="fas fa-code p-1 action text-light"></i>
-                      </a>
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 p-0 text-light text-shadow p-2 bg-primary">
-            <h4 class="bright p-2">Bug tracker</h4>
-            <p
-              class="p-2"
-            >Report and track bugs in your application. Update the status or make notes for other developers as needed.</p>
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12  col-md-6 p-0 text-light p-2 px-4 bg-primary m-auto">
+          <div class="card hide">
+            <div class>
+              <img
+                class="card-img-top"
+                src="@/assets/track-a-bug.png"
+                width="100"
+                alt
+              />
+            </div>
+            <div class="show slide swing-in-top-fwd p-2">
+              <div class="p-relative-30 bright">
+                <div class="d-flex justify-content-around w-100">
+                  <h5 class="bg-dark text-shadow p-2">
+                    <a
+                      target="_blank"
+                      href="https://track-a-bug.herokuapp.com/"
+                    >
+                      <i
+                        title="View Site"
+                        class="fas fa-link p-1 action text-light"
+                      ></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://github.com/JustinLGates/bugtracker"
+                    >
+                      <i
+                        title="View code"
+                        class="fas fa-code p-1 action text-light"
+                      ></i>
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-6 order-md-1 p-0 text-light text-shadow p-2 bg-primary"
+        >
+          <h4 class="bright p-2">Bug tracker</h4>
+          <p class="p-2">
+            Report and track bugs in your application. Update the status or make
+            notes for other developers as needed.
+          </p>
+        </div>
+      </div>
     </div>
+
     <div class="row">
       <div class="col-12">
         <div class="row bg-light d-flex justify-content-around">

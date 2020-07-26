@@ -21,15 +21,13 @@
       </div>
 
       <div
-        class="col-12 col-sm-6 bg-light p-2 px-3 p-lg-5 d-flex align-items-center"
+        class="col-12 col-sm-6 p-1 py-2 px-sm-3 bg-light  p-lg-5 d-flex align-items-center"
       >
-        <div class="text-left">
-          <h4
-            class="d-inline mx-3 p-2 text-shadow px-4 bg-dark rounded-top text-primary"
-          >
+        <div class="text-left p-2 p-sm-3 shadow rounded text-shadow bg-dark">
+          <h4 class="d-inline p-2 text-shadow-2 px-3  text-primary">
             Profile
           </h4>
-          <p class="p-0 bg-dark m-0 p-2 shadow rounded text-shadow">
+          <p class="">
             Experience building  full stack applications Using the solid
             principals of object oriented programming and the MVC design pattern
             . Familiar with several programming languages and frameworks.
@@ -57,51 +55,11 @@
           </h4>
         </div>
       </div>
-      <!-- <h4 class="p-2">Full Stack Experiance</h4> 
-        <div class="d-flex justify-content-around pt-2">
-          <div class="text-left">
-            <h4>Front end</h4>
-            <h6>JavaScript</h6>
-            <h6>HTML 5</h6>
-            <h6>CSS 3</h6>
-            <h6>Vue</h6>
-            <h6>BootStrap</h6>
-          </div>
-
-          <div class="text-left">
-            <h4>Back end</h4>
-            <h6>C#</h6>
-            <h6>SQL</h6>
-            <h6>MongoDb</h6>
-            <h6>Node</h6>
-            <h6>.Net</h6>
-          </div>
-        </div>
-      </div>-->
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  mounted() {
-    // this.pageLoad();
-  },
-  methods: {
-    data() {
-      return {
-        // message: {},
-      };
-    },
-    // pageLoad() {
-    //   setTimeout(() => {}, 1000);
-    //   let str = "Justin Gates Software Developer";
-
-    //   message.str = str;
-    // },
-  },
-};
-</script>
+<script></script>
 
 <style>
 .contact-bar {
@@ -154,7 +112,7 @@ export default {
   cursor: pointer;
 }
 .z-index-1 {
-  z-index: 100;
+  z-index: 0;
 }
 .z-index-2 {
   z-index: 200;
