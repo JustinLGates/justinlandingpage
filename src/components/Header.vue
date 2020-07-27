@@ -5,7 +5,8 @@
     >
       <div class="col-12 p-2 m-h-30 spacer-20">
         <h1 class="text-shadow-3 text-dark p-2">
-          Justin Gates Software Developer
+          Justin Gates Software Developer allata230 remote talent spark onsite
+          clickbank onsite
         </h1>
       </div>
       <div class="col d-flex align-items-center justify-content-center">

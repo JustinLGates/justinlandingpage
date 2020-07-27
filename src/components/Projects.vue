@@ -32,7 +32,7 @@
             <ul>
               <li>NodeJs</li>
               <li>MongoDb</li>
-              <li>Auth0</li>
+              <li></li>
             </ul>
           </div>
         </div>
@@ -99,7 +99,7 @@
             <ul>
               <li>NodeJs</li>
               <li>MongoDb</li>
-              <li>Auth0</li>
+              <li></li>
             </ul>
           </div>
         </div>
@@ -142,16 +142,79 @@
         </div>
       </div>
     </div>
+    <div class="row d-flex justify-content-around bg-dark bp p-2">
+      <div
+        class="col-12 p-0 p-sm-2 col-lg-5 bg-dark col-sm-6 text-light text-shadow d-flex justify-content-start align-items-center flex-column "
+      >
+        <h4 class="p-sm-2 pt-md-4">Kanban</h4>
+        <p class="p-sm-2 pt-md-4">
+          Inspired by Trello make boards and create tasks for each board.
+          collaborate with others and leave notes for other collaborators.
+        </p>
+        <div class="d-flex align-items-space-around justify-content-around">
+          <div class="px-sm-3">
+            <h6 class="pl-sm-3">Client:</h6>
+            <ul>
+              <li>VueJs</li>
+              <li>Bootstrap</li>
+              <li>V-tour</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="px-3">
+            <h6 class="pl-3">Server</h6>
+            <ul>
+              <li>NodeJs</li>
+              <li>MongoDb</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-12 col-lg-5 bg-dark col-sm-6 p-4 d-flex justify-content-around align-items-center flex-column text-light bg-dark animOn"
+      >
+        <div class="card">
+          <div class>
+            <img
+              class="card-img-top"
+              src="@/assets/kanbanpic.png"
+              width="100"
+              alt
+            />
+          </div>
+          <div class="slide swing-in-top-fwd p-2">
+            <div class="p-relative-30 bright">
+              <div class="d-flex justify-content-around w-100">
+                <h5 class="bg-dark text-shadow p-2 shadow rounded">
+                  <a
+                    target="_blank"
+                    href="https://kanbankabana1.herokuapp.com/"
+                  >
+                    <i
+                      title="View Site"
+                      class="fas fa-link p-1 action text-light"
+                    ></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/christopherfelt/kanban"
+                  >
+                    <i
+                      title="View code"
+                      class="fas fa-code p-1 action text-light"
+                    ></i>
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="col-12">
-        <div class="row bg-dark d-flex justify-content-around">
-          <img class="p-2" src="@/assets/html5logo.png" width="10%" alt />
-          <img class="p-2" src="@/assets/mongodblogo.png" width="10%" alt />
-          <img class="p-2" src="@/assets/css3logo.png" width="10%" alt />
-          <img class="p-2" src="@/assets/csharplogo.png" width="10%" alt />
-          <img class="p-0" src="@/assets/jslogo.png" width="18%" alt />
-          <img class="p-2" src="@/assets/bootstraplogo.png" width="10%" alt />
-        </div>
+        <div class="row bg-dark d-flex justify-content-around"></div>
       </div>
     </div>
   </div>
