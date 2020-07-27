@@ -8,11 +8,9 @@
           Justin Gates Software Developer
         </h1>
       </div>
-      <div class="col-6 index-1 ">
-        <div
-          class="d-flex justify-content-center align-items-center index-1 ih"
-        >
-          <div class="pic-container shadow-lg m-2 fixed index-1">
+      <div class="col d-flex align-items-center justify-content-center">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="pic-container shadow ">
             <img
               class="profile-pic"
               src="@/assets/profilepic.jpg"
@@ -39,7 +37,7 @@
         </div>
       </div>
       <div class="col-12 col-sm-6 m-auto">
-        <div class="p-2 bg-light text-primary contact-bar shadow">
+        <div class="p-2 bg-light text-primary contact-bar">
           <h4 class="p-0 m-0">
             <a
               target="_blank"
@@ -93,7 +91,6 @@
     rgba(39, 39, 39, 0.534) 4px 4px 6px;
 }
 .pic-container {
-  background: rgb(123, 126, 131);
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
@@ -104,7 +101,6 @@
 }
 .profile-pic {
   width: 15rem;
-  z-index: 1;
 }
 .fixed {
   position: fixed;
@@ -112,14 +108,5 @@
 .action {
   z-index: 100000;
   cursor: pointer;
-}
-.z-index-1 {
-  z-index: 0;
-}
-.z-index-2 {
-  z-index: 200;
-}
-.z-index-3 {
-  z-index: 0;
 }
 </style>

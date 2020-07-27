@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid z-index-2">
+  <div class="container-fluid px-custom px-lg-5 bg-light">
     <div class="row bg-dark d-flex justify-content-around ">
       <div class="col-12 bg-light p-0 bg-dark">
         <h4 class=" m-0 p-2 px-3 text-dark shadow bg-light rounded-bottom">
@@ -8,9 +8,9 @@
       </div>
     </div>
 
-    <div class="row bg-light">
+    <div class="row bg-dark d-flex justify-content-around bp">
       <div
-        class="col-6 col-lg-5 bg-dark col-sm-6 text-light text-shadow d-flex px-0 p-2 justify-content-start align-items-center flex-column "
+        class="col-12 col-lg-5 bg-dark col-sm-6 text-light text-shadow d-flex px-0 p-2 justify-content-start align-items-center flex-column  "
       >
         <h4 class="p-2 pt-md-3">HomeScholar</h4>
         <p class="p-2 ">
@@ -24,6 +24,7 @@
             <ul>
               <li>VueJs</li>
               <li>Bootstrap</li>
+              <li>CSS</li>
             </ul>
           </div>
           <div class="px-3">
@@ -75,7 +76,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row d-flex justify-content-around bg-dark bp p-2">
       <div
         class="col-12 p-0 p-sm-2 col-lg-5 bg-dark col-sm-6 text-light text-shadow d-flex justify-content-start align-items-center flex-column "
       >
@@ -90,6 +91,7 @@
             <ul>
               <li>VueJs</li>
               <li>Bootstrap</li>
+              <li>CSS</li>
             </ul>
           </div>
           <div class="px-3">
@@ -103,7 +105,7 @@
         </div>
       </div>
       <div
-        class="col-4 col-lg-5 bg-dark col-sm-6 p-4 d-flex justify-content-around align-items-center flex-column text-light bg-dark animOn"
+        class="col-12 col-lg-5 bg-dark col-sm-6 p-4 d-flex justify-content-around align-items-center flex-column text-light bg-dark animOn"
       >
         <div class="card">
           <div class>
@@ -142,7 +144,7 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <div class="row bg-light d-flex justify-content-around">
+        <div class="row bg-dark d-flex justify-content-around">
           <img class="p-2" src="@/assets/html5logo.png" width="10%" alt />
           <img class="p-2" src="@/assets/mongodblogo.png" width="10%" alt />
           <img class="p-2" src="@/assets/css3logo.png" width="10%" alt />
@@ -160,6 +162,12 @@ export default {};
 </script>
 
 <style>
+.px-custom {
+  padding: 27px;
+}
+.bp {
+  border-bottom: solid 5px rgb(241, 241, 241);
+}
 .text-shdaow-3 {
   text-shadow: black 1px 1px 1px, rgba(0, 0, 0, 0.76) 2px 2px 2px;
 }
